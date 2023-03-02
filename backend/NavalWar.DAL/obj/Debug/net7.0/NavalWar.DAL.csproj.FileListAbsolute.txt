@@ -1,0 +1,17 @@
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\bin\Debug\net7.0\NavalWar.DAL.deps.json
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\bin\Debug\net7.0\NavalWar.DAL.runtimeconfig.json
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\bin\Debug\net7.0\NavalWar.DAL.dll
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\bin\Debug\net7.0\NavalWar.DAL.pdb
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\bin\Debug\net7.0\NavalWar.DTO.dll
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\bin\Debug\net7.0\NavalWar.DTO.pdb
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\NavalWar.DAL.csproj.AssemblyReference.cache
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\NavalWar.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\NavalWar.DAL.AssemblyInfoInputs.cache
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\NavalWar.DAL.AssemblyInfo.cs
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\NavalWar.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\NavalWar.DAL.csproj.CopyComplete
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\NavalWar.DAL.dll
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\refint\NavalWar.DAL.dll
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\NavalWar.DAL.pdb
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\NavalWar.DAL.genruntimeconfig.cache
+C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DAL\obj\Debug\net7.0\ref\NavalWar.DAL.dll
