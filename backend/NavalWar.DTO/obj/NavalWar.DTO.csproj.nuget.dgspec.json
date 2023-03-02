@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Etienne\\Documents\\ServiceWeb\\navalback\\bataillenavalgroupe13\\NavalWar.DTO\\NavalWar.DTO.csproj": {}
+    "C:\\Users\\Etienne\\Documents\\gitnav\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Etienne\\Documents\\ServiceWeb\\navalback\\bataillenavalgroupe13\\NavalWar.DTO\\NavalWar.DTO.csproj": {
+    "C:\\Users\\Etienne\\Documents\\gitnav\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Etienne\\Documents\\ServiceWeb\\navalback\\bataillenavalgroupe13\\NavalWar.DTO\\NavalWar.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Etienne\\Documents\\gitnav\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj",
         "projectName": "NavalWar.DTO",
-        "projectPath": "C:\\Users\\Etienne\\Documents\\ServiceWeb\\navalback\\bataillenavalgroupe13\\NavalWar.DTO\\NavalWar.DTO.csproj",
+        "projectPath": "C:\\Users\\Etienne\\Documents\\gitnav\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj",
         "packagesPath": "C:\\Users\\Etienne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Etienne\\Documents\\ServiceWeb\\navalback\\bataillenavalgroupe13\\NavalWar.DTO\\obj\\",
+        "outputPath": "C:\\Users\\Etienne\\Documents\\gitnav\\navalfront\\backend\\NavalWar.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

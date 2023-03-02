@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K9VE7UIg5rGBtzuHNUwh1jMLn8RIY+G2k6ZI9oEkjGEmHoBAWAG2RVVJyoLJK5aJJ1qFoN4xWGzQGcESRsl36w==",
+  "dgSpecHash": "+kHmmOu2rTj7h4snkWMlG8jbnur6lyzRaG1bIzfmQCDKzcPKPy5Gf+nYu7faEEDx7sl+S8+thHrRB5aTHsGYuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Etienne\\Documents\\ServiceWeb\\navalback\\bataillenavalgroupe13\\NavalWar.DAL\\NavalWar.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Etienne\\Documents\\gitnav\\navalfront\\backend\\NavalWar.DAL\\NavalWar.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Etienne\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Etienne\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

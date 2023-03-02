@@ -12,3 +12,17 @@ C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.D
 C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.pdb
 C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.genruntimeconfig.cache
 C:\Users\Etienne\Documents\ServiceWeb\navalback\bataillenavalgroupe13\NavalWar.DTO\obj\Debug\net7.0\ref\NavalWar.DTO.dll
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\bin\Debug\net7.0\NavalWar.DTO.deps.json
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\bin\Debug\net7.0\NavalWar.DTO.runtimeconfig.json
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\bin\Debug\net7.0\NavalWar.DTO.dll
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\bin\Debug\net7.0\NavalWar.DTO.pdb
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.csproj.AssemblyReference.cache
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.AssemblyInfoInputs.cache
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.AssemblyInfo.cs
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.dll
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\refint\NavalWar.DTO.dll
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.pdb
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.genruntimeconfig.cache
+C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\ref\NavalWar.DTO.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P6F06MSvwQSjbYZuh+p/885XCUNZBoTQjN289aweNxR/H4ni+h9/RL3eul0rpcegzv9s2iOsviPmAXm8YmqNsQ==",
+  "dgSpecHash": "SqQ6qadZHYiR1uI4KRhiQIY/7Yo2mQ/1edbDbxd0R6RsVVQFJa1F34M72nN12BGhiqyRknxfEoYQFq2qse1bwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Etienne\\Documents\\ServiceWeb\\navalback\\bataillenavalgroupe13\\NavalWar.DTO\\NavalWar.DTO.csproj",
+  "projectFilePath": "C:\\Users\\Etienne\\Documents\\gitnav\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Etienne\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Etienne\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
