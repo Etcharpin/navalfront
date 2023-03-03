@@ -39,7 +39,8 @@ export const Join = () => {
 
     return (
         <>
-        <Form >
+        <div className="form-container">
+        <Form className="form" >
         <Form.Group controlId="formGameNumber">
           <Form.Label>Game number</Form.Label>
           <Form.Control type="text" ref={gameref} />
@@ -51,6 +52,7 @@ export const Join = () => {
         </Link>
       </Form>
       <img src={bato} alt="bat" className="splash-battleship-image"></img>
+      </div>
       </>
     );
 };

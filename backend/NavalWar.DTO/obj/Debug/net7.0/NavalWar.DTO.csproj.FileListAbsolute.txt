@@ -26,3 +26,17 @@ C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7
 C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.pdb
 C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.genruntimeconfig.cache
 C:\Users\Etienne\Documents\gitnav\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\ref\NavalWar.DTO.dll
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\bin\Debug\net7.0\NavalWar.DTO.deps.json
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\bin\Debug\net7.0\NavalWar.DTO.runtimeconfig.json
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\bin\Debug\net7.0\NavalWar.DTO.dll
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\bin\Debug\net7.0\NavalWar.DTO.pdb
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.csproj.AssemblyReference.cache
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.AssemblyInfoInputs.cache
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.AssemblyInfo.cs
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.csproj.CoreCompileInputs.cache
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.dll
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\refint\NavalWar.DTO.dll
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.pdb
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\NavalWar.DTO.genruntimeconfig.cache
+C:\Users\trist\Source\Repos\navalfront\backend\NavalWar.DTO\obj\Debug\net7.0\ref\NavalWar.DTO.dll

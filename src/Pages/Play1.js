@@ -41,11 +41,15 @@ export const Play1 = () => {
   useEffect(() => {
     // si pas de donnée de jeu on fait une requete dessus
     const interval = setInterval(() => {
-      if(mystate === true){
+      if (gameState !== -1)
+     {if(mystate === true){
         fetchShipsOnce();
         GetgameStatus();
         if(enstate === true && gameState === 0){
           sentPostGameStatus(myId);
+        }
+        if (enstate === true && (myboatnb === 0 || enboatnb === 0)){
+          sentPostGameStatus(-1);
         }
       }
       if(gameid !== ""){
@@ -63,8 +67,8 @@ export const Play1 = () => {
           fetchEnemyShipNumberOnce();
           GetPlayerStatus(enemyid);
         }
-      }
-    }, 1000);
+      }}
+    }, 500);
     return () => clearInterval(interval);
   
   }, [myId,mystate,shipOnBoard,enstate,myboatnb,enboatnb,gameid,enemyid]);
@@ -503,7 +507,6 @@ export const Play1 = () => {
       let x;
       let y;
       if(gameState === myId){
-        console.log("bizz")
         let playerId = enemyid;
         x = (id%10).toString();
         y = (Math.floor(id /10)).toString();
@@ -613,13 +616,6 @@ export const Play1 = () => {
           return(<h3 id="whose-go" className="info-text">Waiting for Player 2 to be ready</h3>)
         }
         else{
-          if(myboatnb === 0){
-              sentPostGameStatus(-1);
-              return( <h3 id="whose-go" className="info-text">Defeat</h3>)
-          }
-          if(enboatnb === 0){
-            return( <h3 id="whose-go" className="info-text">Victory</h3>)
-        }
           if(gameState === myId){
             return( <h3 id="whose-go" className="info-text">Your turn</h3>)
           }
@@ -646,9 +642,25 @@ export const Play1 = () => {
       }
     }
 
+    const displayResult = () => {
+      if (gameState === -1){
+        if(enboatnb === 0){
+          return(
+            <div className="victory-status">Victory !</div>
+          )
+        }
+        if(myboatnb === 0){
+          return(
+            <div className="defeat-status">Defeat !</div>
+          )
+        }
+      }
+    }
+
 
     return (
         <div className="Background-image">
+          {displayResult()}
           <div>{gameid}</div>
         <div  className="container">
           <div className="player p1">
