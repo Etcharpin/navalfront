@@ -7793,11 +7793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\Naval_War\\Naval_War.csproj",
+      "projectUniqueName": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\Naval_War\\Naval_War.csproj",
       "projectName": "Naval_War",
-      "projectPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\Naval_War\\Naval_War.csproj",
+      "projectPath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\Naval_War\\Naval_War.csproj",
       "packagesPath": "C:\\Users\\trist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\Naval_War\\obj\\",
+      "outputPath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\Naval_War\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7819,14 +7819,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\Business\\NavalWar.Business.csproj": {
-              "projectPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\Business\\NavalWar.Business.csproj"
+            "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\Business\\NavalWar.Business.csproj": {
+              "projectPath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\Business\\NavalWar.Business.csproj"
             },
-            "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DAL\\NavalWar.DAL.csproj": {
-              "projectPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DAL\\NavalWar.DAL.csproj"
+            "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DAL\\NavalWar.DAL.csproj": {
+              "projectPath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DAL\\NavalWar.DAL.csproj"
             },
-            "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {
-              "projectPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj"
+            "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {
+              "projectPath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj"
             }
           }
         }

@@ -102,16 +102,16 @@ export const Home = () => {
         <h1 className="splash-title">Battleship</h1>
         <Form.Group controlId="formUsername" className='form-home'>
           <Form.Label>Username</Form.Label>
-          <Form.Control type="text" ref={usernameRef} onChange={handleUsernameChange} />
+          <Form.Control type="text" ref={usernameRef} onChange={handleUsernameChange} placeholder="Entrez votre nom d'utilisateur" />
         </Form.Group>
         <div className="btn-container">
           <div>
             {username ? (
               <Link to={{ pathname: "/play1", search: `?gameid=${encodeURIComponent(gameid)}` }}>
-                <button type="button" className="btn splash-btn" onClick={createGame}>Creer</button>
+                <button type="button" className="btn splash-btn" onClick={createGame}>Créer</button>
               </Link>
             ) : (
-              <button type="button" className="btn splash-btn" disabled>Creer</button>
+              <button type="button" className="btn splash-btn" disabled>Créer</button>
             )}
           </div>
           <div>

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {}
+    "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {
+    "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj",
         "projectName": "NavalWar.DTO",
-        "projectPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj",
+        "projectPath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj",
         "packagesPath": "C:\\Users\\trist\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DTO\\obj\\",
         "projectStyle": "PackageReference",

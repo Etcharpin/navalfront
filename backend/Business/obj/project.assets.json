@@ -3510,9 +3510,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\Business\\NavalWar.Business.csproj",
+      "projectUniqueName": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\Business\\NavalWar.Business.csproj",
       "projectName": "NavalWar.Business",
-      "projectPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\Business\\NavalWar.Business.csproj",
+      "projectPath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\Business\\NavalWar.Business.csproj",
       "packagesPath": "C:\\Users\\trist\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\Business\\obj\\",
       "projectStyle": "PackageReference",
@@ -3536,11 +3536,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DAL\\NavalWar.DAL.csproj": {
-              "projectPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DAL\\NavalWar.DAL.csproj"
+            "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DAL\\NavalWar.DAL.csproj": {
+              "projectPath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DAL\\NavalWar.DAL.csproj"
             },
-            "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {
-              "projectPath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj"
+            "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj": {
+              "projectPath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\NavalWar.DTO\\NavalWar.DTO.csproj"
             }
           }
         }

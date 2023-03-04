@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k1uxBNdOc/aDNADATxH6g4oqeRqJuQrTNGYb/y4z4sUUCjpSQLoQyD7ihAZ1CgAk0pfV4DrgpN03JJIWDWDyxA==",
+  "dgSpecHash": "fLQsJhSo8Fk2JNJFWZ2t5ikQO1fFEaaddhgv6FqTbbBK9ePTeNIj5mKpB2htN33KbYtOXx+jBN6rLnyVbsQCBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\trist\\Source\\Repos\\navalfront\\backend\\Naval_War\\Naval_War.csproj",
+  "projectFilePath": "C:\\Users\\trist\\source\\repos\\navalfront\\backend\\Naval_War\\Naval_War.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trist\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\trist\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

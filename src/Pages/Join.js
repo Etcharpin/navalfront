@@ -43,10 +43,10 @@ export const Join = () => {
         <Form className="form" >
         <Form.Group controlId="formGameNumber">
           <Form.Label>Game number</Form.Label>
-          <Form.Control type="text" ref={gameref} />
+          <Form.Control type="text" ref={gameref} placeholder="Numéro de partie à rejoindre" />
         </Form.Group>
         <Link to={{ pathname:"/play2"}}>
-        <Button variant="primary" type="submit" onClick={JoinTheGame}>
+        <Button variant="primary" type="submit" onClick={JoinTheGame} className="join-btn">
           Join
         </Button>
         </Link>
