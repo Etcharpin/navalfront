@@ -96,9 +96,13 @@ namespace Naval_War.Controllers
 		}
 
 		// DELETE api/<ValuesController>/5
-		[HttpDelete("{id}")]
-		public void Delete(int id)
+		[HttpDelete]
+		public void Delete(int idplayer,int type)
 		{
+            PlayerDTO playerDTOplayer = gameService.GetPlayer(idplayer);
+            playerDTOplayer.shipslist.Remove(playerDTOplayer.shipslist.Find(x => x.ShipType == type));
+            gameService.updatePlayerService(playerDTOplayer);
+
 		}
 	}
 }
