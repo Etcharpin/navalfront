@@ -10,7 +10,7 @@ export const Play2 = () => {
 
     let nbbatopose = 0;
     const width = 10;
-    let shipcurr;
+    const [shipcurr,setcurr] = useState([]);
     const [gameid,,player1id,,,] = useContext(Context);
     let [shipOnBoard,setshipOnBoard] = useState([]);
     let [shipEnemyBoard,setEnemyOnBoard] = useState([]);
@@ -68,7 +68,7 @@ export const Play2 = () => {
     }, 500);
     return () => clearInterval(interval);
   
-  }, [myId,mystate,shipOnBoard,enstate,myboatnb,enboatnb,gameid,enemyid]);
+  }, [myId,mystate,shipOnBoard,enstate,myboatnb,enboatnb,gameid,enemyid,shipcurr]);
   
     let [shipArray,setShipArray] = useState([
       {
@@ -136,10 +136,10 @@ export const Play2 = () => {
     })
 
     const changeShip = (ship) => {
-        shipcurr = ship;
-        getMyID();
-        //console.log(shipcurr);
-    }
+      setcurr(ship)
+      getMyID();
+      //console.log(shipcurr);
+  }
 
     const turnboat = ((curr) => {
       const shipIndex = shipArray.findIndex(ship => ship === curr);
@@ -521,10 +521,17 @@ export const Play2 = () => {
 
 
     const allship = shipArray.map((ship) => {
-      //console.log(shipArray);
+        if(ship.id === shipcurr.id){
         return(
-            <div key={ship.id} onClick={()=>(changeShip(ship))} className={ship.clas}>{shipvis(ship.st)}</div>
-        )
+          <div style={{backgroundColor: "green"}} key={ship.id} onClick={()=>(changeShip(ship))} className={ship.clas}>{shipvis(ship.st)}</div>
+      )
+      }
+      else{
+        return(
+          <div key={ship.id} onClick={()=>(changeShip(ship))} className={ship.clas}>{shipvis(ship.st)}</div>
+      )
+      }
+        
     })
     const griduser = userSquares.map((square) => {
         return(

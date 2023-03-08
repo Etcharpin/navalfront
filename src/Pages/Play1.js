@@ -10,7 +10,7 @@ export const Play1 = () => {
 
     let nbbatopose = 0;
     const width = 10;
-    let shipcurr;
+    const [shipcurr,setcurr] = useState([]);
     const [gameid,,player1id,,,] = useContext(Context);
     let [shipOnBoard,setshipOnBoard] = useState([]);
     let [shipEnemyBoard,setEnemyOnBoard] = useState([]);
@@ -71,7 +71,7 @@ export const Play1 = () => {
     }, 500);
     return () => clearInterval(interval);
   
-  }, [myId,mystate,shipOnBoard,enstate,myboatnb,enboatnb,gameid,enemyid]);
+  }, [myId,mystate,shipOnBoard,enstate,myboatnb,enboatnb,gameid,enemyid,shipcurr]);
   
     let [shipArray,setShipArray] = useState([
       {
@@ -79,6 +79,7 @@ export const Play1 = () => {
         clas:'ship destroyer-container',
         id: 102,
         st : '<div id="cruiser-0"></div><div id="cruiser-1"></div><div id="cruiser-2"></div>',
+        styl : '{backgroundColor: "red"}',
         directions: [
           [0, 1],
           [0, width]
@@ -89,6 +90,7 @@ export const Play1 = () => {
         clas:'ship cruiser-container',
         id: 103,
         st : '<div id="cruiser-0"></div><div id="cruiser-1"></div><div id="cruiser-2"></div>',
+        styl : '{backgroundColor: "red"}',
         directions: [
           [0, 1, 2],
           [0, width, width*2]
@@ -99,6 +101,7 @@ export const Play1 = () => {
         clas:'ship battleship-container',
         id: 104,
         st : '<div id="cruiser-0"></div><div id="cruiser-1"></div><div id="cruiser-2"></div>',
+        styl : '{backgroundColor: "red"}',
         directions: [
           [0, 1, 2, 3],
           [0, width, width*2, width*3]
@@ -109,6 +112,7 @@ export const Play1 = () => {
         clas:'ship carrier-container',
         id: 105,
         st : '<div id="carrier-0"></div><div id="carrier-1"></div><div id="carrier-2"></div><div id="carrier-3"></div><div id="carrier-4"></div>',
+        styl : '{backgroundColor: "red"}',
         directions: [
           [0, 1, 2, 3, 4],
           [0, width, width*2, width*3, width*4]
@@ -139,7 +143,7 @@ export const Play1 = () => {
     })
 
     const changeShip = (ship) => {
-        shipcurr = ship;
+        setcurr(ship)
         getMyID();
         //console.log(shipcurr);
     }
@@ -519,11 +523,18 @@ export const Play1 = () => {
       
     }
 
-
     const allship = shipArray.map((ship) => {
+        if(ship.id === shipcurr.id){
         return(
-            <div key={ship.id} onClick={()=>(changeShip(ship))} className={ship.clas}>{shipvis(ship.st)}</div>
-        )
+          <div style={{backgroundColor: "green"}} key={ship.id} onClick={()=>(changeShip(ship))} className={ship.clas}>{shipvis(ship.st)}</div>
+      )
+      }
+      else{
+        return(
+          <div key={ship.id} onClick={()=>(changeShip(ship))} className={ship.clas}>{shipvis(ship.st)}</div>
+      )
+      }
+        
     })
     const griduser = userSquares.map((square) => {
         return(
