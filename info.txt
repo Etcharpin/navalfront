@@ -1,0 +1,22 @@
+Le projet total se compose en 2 parties :
+    - Le backend se situant dans le dossier "backend"
+    - Le frontend qui se trouve dans "src"
+
+Pour lancer le back, ouvrez simplement la solution se trouvant dans "/backend/Naval_War/Naval_War.sln"
+
+Normalement le mot de passe et identifiant devrai fonctionner dans le code.
+Si ce n'est pas le cas, l'identifiant de la base de donnée est : etcharpin
+                                    Le mot de passe de la base : NWGP1363!
+                                    L'adresse de la base est : navalwargroup13.database.windows.net
+
+Pour le frontend, Lancez le dossier dans visual studio code puis faite "npm install" et enfin "npm start" pour lancer l'application.
+
+
+Une fois les 2 parties lancées, ouvrez 2 fenetres avec l'url "https://localhost:3000"
+La première va devoir mettre son nom puis créer la partie. Elle récupère l'id de sa partie en haut à gauche de son écran une fois connectée.
+
+Le deuxième doit mettre son nom puis rejoindre. Il entre l'id de la partie de celui qui a créé.
+
+Une fois les 2 connectés, cliquez sur vos bateaux en bas, puis placez-les sur la grille de gauche. 
+Une fois les 4 bateaux posés par les 2 joueurs et le bouton "start game" utilisé, le tour du joueur à jouer sera annoncé en bas de l'écran,
+et il faudra donc cliquer cette fois sur la grille de droite pour tirer.
