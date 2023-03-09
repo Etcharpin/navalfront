@@ -12,7 +12,7 @@ namespace Business
 	public interface IGameService
 	{
 		List<Box> GetMap(Player player);
-		public void PlaceShip(PlayerDTO player, int x, int y, int size, bool orientation);
+		public int PlaceShip(PlayerDTO player, int x, int y, int size, bool orientation);
 		public PlayerDTO RemoveShip(PlayerDTO player, int x, int y, int size, bool orientation);
 		public void AddPlayer(PlayerDTO player);
 		public PlayerDTO GetPlayer(int playerId);

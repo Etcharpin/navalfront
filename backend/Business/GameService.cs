@@ -22,9 +22,18 @@ namespace Business
 			return player.map.listBox;
 		}
 
-		public void PlaceShip(PlayerDTO player, int x, int y, int size, bool orientation)
-		{ 
-			playerService.PlaceShip(player, x, y, size, orientation); 
+		public int PlaceShip(PlayerDTO player, int x, int y, int size, bool orientation)
+		{
+			try
+			{
+                playerService.PlaceShip(player, x, y, size, orientation);
+				return 0;
+            }
+			catch {
+				Console.WriteLine("exception bateau placé");
+				return 1;
+			}
+			 
 		}
 
 		public PlayerDTO RemoveShip(PlayerDTO player, int x, int y, int size, bool orientation)

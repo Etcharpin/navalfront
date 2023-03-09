@@ -197,12 +197,13 @@ export const Play1 = () => {
     async function sentPostShip(rq){
 
 
-    await fetch(rq,requestOptions)
+    const lt = await fetch(rq,requestOptions)
     .then(response => response.json())
     .catch(error => console.log(error));
     if(myId !== undefined){
       await fetchShipsOnce(myId);
     }
+    return lt;
     
     }
 
@@ -304,13 +305,12 @@ export const Play1 = () => {
 
             }
             let requete = 'https://localhost:7080/api/Ship?x='+x+'&y='+y+'&type='+type+'&orientation='+orientation+'&playerId='+playerId;
-            sentPostShip(requete);
-
-            if(/*insertok*/true){
+            sentPostShip(requete).then(res => {
+              if(res === 0){
                 const newshiparray = [...shipArray];
                 const newww = newshiparray.filter((ship) => ship.id !== shipcurr.id);
                 setShipArray(newww);
-            }
+            }});
             fetchShipNumberOnce();
             
         }
@@ -549,7 +549,7 @@ export const Play1 = () => {
     });
 
     const startgame = () => {
-
+        console.log(myboatnb);
         if(myboatnb === 4){
           sentPostPlayerStatusRdy();
         }
